@@ -6,6 +6,17 @@ nav li {
   font-style: normal;
 }
 
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 413px;
+    width: 100%;
+    height: 160px;
+    background-color: rgb(50, 235, 207);
+    border: 10px solid;
+}
+
 header nav ul li {
     display: inline-block;
     border: 10px solid;
@@ -14,5 +25,9 @@ header nav ul li {
     height: 77px;
     margin-right: 145px;
     background-color: rgb(138, 172, 235);
+}
+
+header nav ul li a{
+    text-decoration: none;
 }
 
