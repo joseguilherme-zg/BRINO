@@ -7,9 +7,13 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(138, 172, 235);
+}
+
 nav li {
   font-family: "Jersey 15", sans-serif;
-  font-weight: 400;
+  font-weight: 400px;
   font-style: normal;
 }
 
