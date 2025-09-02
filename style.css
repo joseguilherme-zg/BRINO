@@ -15,6 +15,7 @@ nav li {
   font-family: "Jersey 15", sans-serif;
   font-weight: 400px;
   font-style: normal;
+  text-align: center;
 }
 
 header{
@@ -29,11 +30,15 @@ header{
 }
 
 header nav ul li {
+
     display: inline-block;
+
     border: 10px solid;
     border-radius: 50px;
+
     width: 241px;
     height: 77px;
+    
     margin-right: 145px;
     background-color: rgb(226, 69, 124);
 }
