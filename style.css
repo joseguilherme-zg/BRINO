@@ -22,7 +22,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 413px;
+    gap: 100px;
     width: 100%;
     height: 160px;
     background-color: rgb(78, 223, 254);
@@ -38,7 +38,7 @@ header nav ul li {
 
     width: 241px;
     height: 77px;
-    
+
     margin-right: 145px;
     background-color: rgb(226, 69, 124);
 }
