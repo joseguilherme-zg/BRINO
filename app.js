@@ -1,15 +1,14 @@
-const container = document.getElementById('fotos')
-const imagens = container.querySelectorAll('img');
+const imagem = document.querySelectorAll('img');
 let foto_troca = false
 
 function trocaFoto(){
-        for (let i = 0; i < imagens.length; i++){
+        for(let i = 0; i < imagem.length; i++ ){
         if(foto_troca === false){
-        imagens[i].src = `baixados(${i + 9}).jpg`;
+        imagem[i].src = `baixados(${i + 8}.jpg`;
         foto_troca = true;
     }else{
-        for (let i = 0; i < imagens.length; i++) {
-            imagens[i].src = `baixados(${i+1}).jpg`;
+        for (let i = 0; i < imagem.length; i++) {
+            imagem[i].src = `baixados(${i + 1}).jpg`;
             foto_troca = false;
         }}
-    }};
+    }}
