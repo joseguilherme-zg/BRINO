@@ -12,3 +12,4 @@ function trocaFoto(){
         imagem[i].src = `baixados(${i + 1}).jpg`;
         foto_troca = false;}
     }
+}
