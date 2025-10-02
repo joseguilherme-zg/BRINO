@@ -5,7 +5,7 @@ function trocaFoto(){
 
     if(foto_troca === false){
         for(let i = 0; i < imagem.length; i++ ){
-        imagem[i].src = `baixados(${i + 7}).jpg`;
+        imagem[i].src = `baixados(${i + 9}).jpg`;
         foto_troca = true;}
     }else{
         for(let i = 0; i < imagem.length; i++ ){
